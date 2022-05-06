@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22123430.css",
+    "main.js": "/static/js/main.bcaf18af.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/wudgieweather.mp4": "/static/media/wudgieweather.a45479ce4969aaa15b7c.mp4",
+    "static/media/codeblue.mp4": "/static/media/codeblue.e7d2eb0193cb0fc08fe3.mp4",
+    "static/media/profile.png": "/static/media/profile.aad8e4bbe975cfa9f4c9.png",
+    "static/media/port-rio.jpg": "/static/media/port-rio.2ebd4e27932f9930cedd.jpg",
+    "static/media/port-portfolio.jpg": "/static/media/port-portfolio.6c2227138d82d7ca820c.jpg",
+    "static/media/logo2.png": "/static/media/logo2.5d60857f7738928629ca.png",
+    "static/media/logo3.png": "/static/media/logo3.4d89fd1a082ae4912971.png",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/index.html",
+    "main.22123430.css.map": "/static/css/main.22123430.css.map",
+    "main.bcaf18af.js.map": "/static/js/main.bcaf18af.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22123430.css",
+    "static/js/main.bcaf18af.js"
+  ]
+}
