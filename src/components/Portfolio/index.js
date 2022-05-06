@@ -1,8 +1,8 @@
 import "./index.scss";
-// import portRio from "../../assets/images/port-rio.jpg";
-// import wudgieWeather from "../../assets/images/wudgieweather.mp4";
-// import codeBlueVid from "../../assets/images/codeblue.mp4";
-// import portfolioImg from "../../assets/images/port-portfolio.jpg";
+import portRio from "../../assets/images/port-rio.jpg";
+import wudgieWeather from "../../assets/images/wudgieweather.mp4";
+import codeBlueVid from "../../assets/images/codeblue.mp4";
+import portfolioImg from "../../assets/images/port-portfolio.jpg";
 
 const Portfolio = () => {
   return (
@@ -59,7 +59,9 @@ const Portfolio = () => {
                 </a>
               </p>
             </div>
-            <span>{/* <img src={portRio} alt="Image description" /> */}</span>
+            <span>
+              <img src={portRio} alt="Image description" />
+            </span>
           </div>
         </li>
         <li class="card" id="card_2">
@@ -97,13 +99,13 @@ const Portfolio = () => {
               </p>
             </div>
             <span>
-              {/* <video
+              <video
                 src={wudgieWeather}
                 autoplay="true"
                 loop="true"
                 muted="true"
                 alt="Image description"
-              /> */}
+              />
             </span>
           </div>
         </li>
@@ -142,7 +144,7 @@ const Portfolio = () => {
               </p>
             </div>
             <span>
-              {/* <img src={portfolioImg} alt="Image description" /> */}
+              <img src={portfolioImg} alt="Image description" />
             </span>
           </div>
         </li>
@@ -180,13 +182,13 @@ const Portfolio = () => {
               </p>
             </div>
             <span>
-              {/* <video
+              <video
                 src={codeBlueVid}
                 autoplay="true"
                 loop="true"
                 muted="true"
                 alt="Image description"
-              /> */}
+              />
             </span>
           </div>
         </li>
