@@ -135,7 +135,7 @@ const Portfolio = () => {
                   VIEW SITE
                 </a>
                 <a
-                  href="https://github.com/nickbanders/Nick-REACT-Portfolio"
+                  href="https://github.com/nickbanders/portfolio-REACT-final"
                   className="repo-btn"
                   target="_blank"
                   rel="noopener noreferrer"
