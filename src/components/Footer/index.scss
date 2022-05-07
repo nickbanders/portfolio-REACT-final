@@ -1,0 +1,33 @@
+@media (max-width: 970px) {
+  footer {
+    float: left;
+    // padding-left: 35px;
+    top: 0;
+    // bottom: 0;
+    color: #f4eae6;
+
+    ul {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      display: block;
+      //   padding-left: 10px;
+      list-style: none;
+      text-align: center;
+      margin: 0;
+
+      li {
+        a {
+          padding: 7px 0;
+          display: block;
+          font-size: 22px;
+          line-height: 16px;
+
+          &:hover svg {
+            color: #e57f84;
+          }
+        }
+      }
+    }
+  }
+}

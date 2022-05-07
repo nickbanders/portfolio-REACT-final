@@ -65,8 +65,8 @@ const About = () => {
           the possibilty of a new career that gave me an opportunity to create
           again.
           <br />
-          <br />I completed the course in April of 2022 excited about where it
-          will take me next.
+          <br />I completed the course in April of 2022, and I'm excited about
+          where it will take me next.
         </p>
         <div className="iconRow">
           <div className="icon">

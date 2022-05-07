@@ -104,6 +104,7 @@ const Portfolio = () => {
                 autoplay="true"
                 loop="true"
                 muted="true"
+                playsinline="true"
                 alt="Image description"
               />
             </span>
@@ -187,6 +188,7 @@ const Portfolio = () => {
                 autoplay="true"
                 loop="true"
                 muted="true"
+                playsinline="true"
                 alt="Image description"
               />
             </span>
