@@ -50,7 +50,7 @@ const About = () => {
           <br />
         </p>
         <p>
-          After spending several years at the{" "}
+          After spending several years with the{" "}
           <a
             href="https://barnfestival.com/"
             target="_blank"
@@ -58,10 +58,9 @@ const About = () => {
           >
             family business
           </a>{" "}
-          my Mom and I thought it would be best to sell the company in the fall
-          of 2021 after losing a Husband and Father to cancer. Around that time
-          I had some friend's from a previous job tell me about a Full Stack
-          Development bootcamp they were going to sign up for through the
+          a decision was made to sell the company. We had lost a father/husband
+          to cancer and were ready to start a new chapter. Around that time I
+          was introduced to the Full Stack Development bootcamp through the
           University of Texas at Austin. I felt the timing was great to pursue
           the possibilty of a new career that gave me an opportunity to create
           again.
