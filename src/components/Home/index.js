@@ -4,6 +4,7 @@ import AnimatedLetters from "../AnimatedLetters";
 import { motion } from "framer-motion";
 import "./index.scss";
 import logo2 from "../../assets/images/logo2.png";
+import Footer from "../Footer";
 
 const icon = {
   hidden: {
@@ -232,6 +233,7 @@ const Home = () => {
         <img className="solid-logo" src={logo2} alt="JavaScript,  Developer" />
       </div> */}
       </div>
+      <Footer />
     </section>
   );
 };

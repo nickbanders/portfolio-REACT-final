@@ -11,6 +11,7 @@ import {
   faReact,
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
+import Footer from "../Footer";
 
 const About = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
