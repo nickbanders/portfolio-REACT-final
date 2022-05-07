@@ -72,6 +72,7 @@ const Home = () => {
             Developer.
           </span>
         </h1>
+        <Footer />
       </span>
 
       <div className="logo-container">
@@ -233,7 +234,6 @@ const Home = () => {
         <img className="solid-logo" src={logo2} alt="JavaScript,  Developer" />
       </div> */}
       </div>
-      <Footer />
     </section>
   );
 };
