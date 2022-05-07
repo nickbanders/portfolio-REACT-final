@@ -11,6 +11,7 @@
     color: #f4eae6;
     font-size: 53px;
     margin: 0;
+    line-height: 50px;
     font-family: "Coolvetica";
     font-weight: 400;
 
@@ -29,8 +30,11 @@ h2 {
   letter-spacing: 3px;
   animation: fadeIn 1s 3.5s backwards;
 }
-
-.flat-button {
+svg {
+  display: block;
+  margin: auto;
+}
+.flat-button-home {
   color: #e57f84;
   font-size: 13px;
   font-weight: 400;
@@ -52,8 +56,8 @@ h2 {
 
 .logo-container {
   z-index: 0;
-  // width: 500px;
-  // height: 609px;
+  width: 500px;
+  height: 609px;
   opacity: 1;
   position: absolute;
   float: right;
@@ -98,5 +102,158 @@ h2 {
   stroke: none;
 }
 
-@media screen {
+.hidden {
+  display: none;
+}
+
+.flat-button-hidden {
+  display: hidden;
+}
+
+.flat-button-hidden2 {
+  display: hidden;
+}
+
+.logo-container-hidden {
+  display: none;
+}
+
+@media (max-width: 1054px) {
+  .home-page {
+    .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40%;
+      max-height: 90%;
+    }
+    h1 {
+      color: #f4eae6;
+      font-size: 53px;
+      margin: 0;
+      line-height: 50px;
+      font-family: "Coolvetica";
+      font-weight: 400;
+
+      img {
+        width: 32px;
+      }
+    }
+  }
+  .animated-intro {
+    display: none;
+  }
+  .home-section {
+    padding-top: 120px;
+    justify-content: center;
+  }
+  .hidden {
+    width: 100%;
+    display: contents;
+    color: #f4eae6;
+    font-size: 80px;
+    line-height: 60px;
+    padding-left: 20px;
+    margin: 0;
+    font-family: "Coolvetica";
+    font-weight: 400;
+    animation: fadeIn 1s 3.5s backwards;
+    z-index: 9990;
+  }
+  .hidden-bottom {
+    width: 100%;
+    display: contents;
+    color: #f4eae6;
+    font-size: 120px;
+    line-height: 80px;
+    padding-left: 20px;
+    margin: 0;
+    font-family: "Coolvetica";
+    font-weight: 400;
+    animation: fadeIn 1s 3.5s backwards;
+    z-index: 9989;
+  }
+
+  .home-page {
+    text-align: center;
+  }
+  .logo-container {
+    opacity: 0;
+  }
+  .flat-button-hidden {
+    color: #e57f84;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-top: 1px solid #e57f84;
+    border-right: 1px solid #e57f84;
+    border-bottom: 1px solid #e57f84;
+    border-left: 0px solid #e57f84;
+    margin-top: 25px;
+    float: left;
+    animation: fadeIn 1s 4s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      background: #e57f84;
+      color: #333;
+    }
+  }
+  .flat-button-home {
+    display: none;
+
+    &:hover {
+      background: #e57f84;
+      color: #333;
+    }
+  }
+
+  .logo-container-hidden {
+    display: contents;
+    z-index: 0;
+    width: 500px;
+    height: 609px;
+    opacity: 1;
+    position: absolute;
+    float: right;
+    top: 15%;
+    right: 25%;
+    bottom: 25%;
+    // width: 50vw;
+    // bottom: 0;
+    // left: auto;
+    // margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .hidden {
+    width: 100%;
+    display: contents;
+    color: #f4eae6;
+    font-size: 50px;
+    line-height: 40px;
+    padding-left: 20px;
+    margin: 0;
+    font-family: "Coolvetica";
+    font-weight: 400;
+    animation: fadeIn 1s 3.5s backwards;
+  }
+  .hidden-bottom {
+    width: 100%;
+    display: contents;
+    color: #f4eae6;
+    font-size: 80px;
+    line-height: 50px;
+    padding-left: 20px;
+    margin: 0;
+    font-family: "Coolvetica";
+    font-weight: 400;
+    animation: fadeIn 1s 3.5s backwards;
+    z-index: 9998;
+  }
 }

@@ -1,0 +1,115 @@
+@media (max-width: 970px) {
+  .mob-nav-bar {
+    // display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #2f5061;
+
+    .logo {
+      display: block;
+      padding: 8px 0;
+
+      img {
+        display: block;
+        margin: 8px auto;
+        width: 30px;
+        height: auto;
+        opacity: 0.2;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        &.sub-logo {
+          width: 50px;
+        }
+      }
+    }
+
+    nav {
+      display: flex;
+      text-align: center;
+      //   position: sticky;
+      height: 50px;
+      //   top: 50%;
+      width: 100%;
+
+      a {
+        font-size: 24px;
+        color: #f4eae6;
+        display: flex;
+        line-height: 51px;
+        height: 51px;
+        position: sticky;
+        text-decoration: none;
+        padding: 10px;
+        // padding-top: 20px;
+        width: 100%;
+        justify-content: center;
+
+        i {
+          transition: all 0.3s ease-out;
+        }
+
+        &:hover {
+          color: #e57f84;
+
+          svg {
+            opacity: 0;
+          }
+
+          &:after {
+            opacity: 1;
+          }
+        }
+
+        &:after {
+          content: "";
+          font-size: 12px;
+          letter-spacing: 2px;
+          position: absolute;
+          bottom: 0;
+          display: block;
+          width: 100%;
+          text-align: center;
+          opacity: 0;
+          -webkit-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+        }
+
+        &:first-child {
+          &:after {
+            content: "HOME";
+          }
+        }
+      }
+
+      a.about-link {
+        &:after {
+          content: "ABOUT";
+        }
+      }
+
+      a.portfolio-link {
+        &:after {
+          content: "MY WORK";
+        }
+      }
+
+      a.contact-link {
+        &:after {
+          content: "CONTACT";
+        }
+      }
+
+      a.active {
+        svg {
+          color: #e57f84;
+        }
+      }
+    }
+  }
+}
