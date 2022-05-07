@@ -34,11 +34,6 @@ const Portfolio = () => {
                 it on. For instance, when you're viewing from mobile the
                 navigation collapses into a hamburger menu that pops out when
                 clicked.
-                <br />
-                <br />
-                One of the cool things implemented made was a component for the
-                golf holes. Choosing a hole instantly pulls new data such as the
-                description, length, and the photo without needing to reload.
               </p>
               <p>
                 <a
