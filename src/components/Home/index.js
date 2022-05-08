@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import AnimatedLetters from "../AnimatedLetters";
 import { motion } from "framer-motion";
 import "./index.scss";
@@ -33,6 +33,11 @@ const icon2 = {
 };
 
 const Home = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   const [letterClass, setLetterClass] = useState("text-animate");
   const nameArray = ["N", "i", "c", "k", " ", "A", "n", "d", "e", "r", "s,"];
   const jobArray = [

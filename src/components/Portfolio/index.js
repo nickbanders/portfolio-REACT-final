@@ -3,8 +3,14 @@ import portRio from "../../assets/images/port-rio.jpg";
 import wudgieWeather from "../../assets/images/wudgieweather.mp4";
 import codeBlueVid from "../../assets/images/codeblue.mp4";
 import portfolioImg from "../../assets/images/port-portfolio.jpg";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Portfolio = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <span>
       <div className="arrows"></div>

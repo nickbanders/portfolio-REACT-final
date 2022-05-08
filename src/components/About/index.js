@@ -1,6 +1,7 @@
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import profile from "../../assets/images/profile.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -14,6 +15,11 @@ import {
 import Footer from "../Footer";
 
 const About = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   const [letterClass, setLetterClass] = useState("text-animate");
 
   useEffect(() => {

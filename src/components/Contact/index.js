@@ -1,10 +1,16 @@
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
 import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   const [letterClass, setLetterClass] = useState("text-animate");
   const form = useRef();
 
